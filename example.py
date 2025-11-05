@@ -3,6 +3,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-cohort = os.getenv('secret')
+secret = os.getenv('secret')
 
-print(cohort)
+print(secret)
